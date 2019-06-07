@@ -1,0 +1,97 @@
+Output printing starts now
+Server started.
+Listening for connections on port : 8080 ...
+
+Run pressed
+Text: moveForward();
+turnLeft();
+turnLeft();
+turnLeft();
+fly = 5;
+if fly >= 3 {moveBackward()};
+turnRight();
+homePos();
+
+Processing from file
+[moveForward(), 
+turnLeft(), 
+turnLeft(), 
+turnLeft(), 
+fly = 5, 
+if fly >= 3 {moveBackward()}, 
+turnRight(), 
+homePos(), 
+]
+Lines of Code: 9
+Current Line + Output: moveForward()Moving Forward
+Current Line + Output: turnLeft()Turning Left
+Current Line + Output: turnLeft()Turning Left
+Current Line + Output: turnLeft()Turning Left
+Variable Created:
+Name: fly
+Value: 5
+Current Line + Output: fly = 5
+Variable Created:
+Name: fly
+Value: 5
+Condition Statement: fly >= 3
+Next Statement: moveBackward()
+condition1: fly
+operator: >=
+condition2: 3
+Current Line + Output: if fly >= 3 {moveBackward()}Moving Backward
+Condition Statement: fly >= 3
+Next Statement: moveBackward()
+condition1: fly
+operator: >=
+condition2: 3
+Current Line + Output: turnRight()Turning Right
+Current Line + Output: homePos()Returning to home Position
+Current Line + Output: error
+Any errors: false
+Run pressed
+Text: moveForward();
+turnLeft();
+turnLeft();
+turnLeft();
+fly = 5;
+if fly >= 3 {moveBackward()};
+turnRight();
+
+
+Processing from file
+[moveForward(), 
+turnLeft(), 
+turnLeft(), 
+turnLeft(), 
+fly = 5, 
+if fly >= 3 {moveBackward()}, 
+turnRight(), 
+
+]
+Lines of Code: 8
+Current Line + Output: moveForward()Moving Forward
+Current Line + Output: turnLeft()Turning Left
+Current Line + Output: turnLeft()Turning Left
+Current Line + Output: turnLeft()Turning Left
+Variable Created:
+Name: fly
+Value: 5
+Current Line + Output: fly = 5
+Variable Created:
+Name: fly
+Value: 5
+Condition Statement: fly >= 3
+Next Statement: moveBackward()
+condition1: fly
+operator: >=
+condition2: 3
+Current Line + Output: if fly >= 3 {moveBackward()}Moving Backward
+Condition Statement: fly >= 3
+Next Statement: moveBackward()
+condition1: fly
+operator: >=
+condition2: 3
+Current Line + Output: turnRight()Turning Right
+Current Line + Output: error
+Any errors: false

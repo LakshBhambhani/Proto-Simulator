@@ -1,0 +1,8 @@
+moveForward();
+turnLeft();
+turnLeft();
+turnLeft();
+fly = 5;
+if fly >= 3 {moveBackward()};
+turnRight();
+homePos();
