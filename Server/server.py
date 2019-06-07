@@ -105,8 +105,9 @@ if __name__ == "__main__":
    app.run(host='0.0.0.0', port=80, debug=True)
 
 def obstacleAvoidanceMode():
-
+   print("Obstacle Avoidance code missing")
 
 def sumoBotMode():
-   
+   print(sumo bot code missing)
+
 
