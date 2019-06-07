@@ -2,16 +2,16 @@ from flask import Flask, render_template, request, redirect, url_for
 import threading
 
 import PiMotor
-from PiMotor import Sensor
+# from PiMotor import Sensor
 
 m1 = PiMotor.Motor("MOTOR1",1)
 m2 = PiMotor.Motor("MOTOR2",1)
 m3 = PiMotor.Motor("MOTOR3",1)
 m4 = PiMotor.Motor("MOTOR4",1)
 
-us=Sensor("ULTRASONIC",120)
-irFront=Sensor("IR2",1)
-irBack=Sensor("IR1",1)
+# us=Sensor("ULTRASONIC",120)
+# irFront=Sensor("IR2",1)
+# irBack=Sensor("IR1",1)
 
 #To drive all motors together
 motorAll = PiMotor.LinkedMotors(m1,m2,m3,m4)
