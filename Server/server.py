@@ -108,6 +108,6 @@ def obstacleAvoidanceMode():
    print("Obstacle Avoidance code missing")
 
 def sumoBotMode():
-   print(sumo bot code missing)
+   print("sumo bot code missing")
 
 
