@@ -78,7 +78,7 @@ class FirstViewController: UIViewController, WKUIDelegate, UITextFieldDelegate {
         left.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         left.widthAnchor.constraint(equalToConstant: view.frame.size.width*3/8).isActive = true
         left.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        left.addTarget(self, action: #selector(rightAction), for: .touchUpInside)
+        left.addTarget(self, action: #selector(leftAction), for: .touchUpInside)
         
         right.setTitle("Right", for: .normal)
         right.setTitleColor(UIColor.blue, for: .normal)
@@ -87,7 +87,7 @@ class FirstViewController: UIViewController, WKUIDelegate, UITextFieldDelegate {
         right.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         right.widthAnchor.constraint(equalToConstant: view.frame.size.width*3/8).isActive = true
         right.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        right.addTarget(self, action: #selector(leftAction), for: .touchUpInside)
+        right.addTarget(self, action: #selector(rightAction), for: .touchUpInside)
         
         //        let url = URL(string: object.IP);
         //        let request = URLRequest(url: url!);
@@ -101,7 +101,6 @@ class FirstViewController: UIViewController, WKUIDelegate, UITextFieldDelegate {
         let request = URLRequest(url: url!);
         webView.load(request);
         print(url!)
-        
     }
     
     @objc func stopAction(sender: UIButton!) {
