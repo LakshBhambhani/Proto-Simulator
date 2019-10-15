@@ -31,9 +31,8 @@ class FirstViewController: UIViewController, WKUIDelegate, UITextFieldDelegate {
         webView = WKWebView(frame: .init(x: 1000, y: 1000, width: 0, height: 0), configuration: webConfiguration)
         webView.uiDelegate = self
         
-        textField.text! = "192.168.0.31"
+        textField.text! = "192.168.0.30"
         self.textField.delegate = self
-        
         
         self.view.addSubview(forward)
         self.view.addSubview(stop)
@@ -97,6 +96,7 @@ class FirstViewController: UIViewController, WKUIDelegate, UITextFieldDelegate {
     
     @objc func forwardAction(sender: UIButton!) {
         print("Forward Clicked")
+        forward.isHighlighted = true
         let url = URL(string: "http://" + textField.text! + "/forward");
         let request = URLRequest(url: url!);
         webView.load(request);

@@ -69,12 +69,12 @@ def action1(action1):
       message = "forward"
       thread = threading.Thread(target=forward)
       thread.start()
-      return message + ' started' 
+      render_template('main.html')
    elif action1 == "reverse":
       message = "reverse"
       thread = threading.Thread(target=reverse)
       thread.start()
-      return message + ' started' 
+      render_template('main.html')
    elif action1 == "turnLeft":
       message = "turnLeft"
       thread = threading.Thread(target=turnLeft)
@@ -84,27 +84,27 @@ def action1(action1):
       message = "turnRight"
       thread = threading.Thread(target=turnRight)
       thread.start()
-      return message + ' started' 
+      render_template('main.html')
    elif action1 == "stop":
       message = "stop"
       thread = threading.Thread(target=stop)
       thread.start()
-      return message + ' started' 
+      render_template('main.html')
    elif action1 == "obstacleAvoidanceMode":
       message = "obstacleAvoidanceMode"
       thread = threading.Thread(target=obstacleAvoidanceMode)
       thread.start()
-      return message + ' started' 
+      render_template('main.html')
    elif action1 == "sumoBotMode":
       message = "sumoBotMode"
       thread = threading.Thread(target=sumoBotMode)
       thread.start()
-      return message + ' started' 
+      render_template('main.html') 
    elif action1 == "lineFollowingMode":
       message = "lineFollowingMode"
       thread = threading.Thread(target=lineFollowingMode)
       thread.start()
-      return message + ' started' 
+      render_template('main.html') 
    else:
       message = ""
 
